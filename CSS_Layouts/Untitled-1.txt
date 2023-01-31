@@ -1,0 +1,30 @@
+Flex-box :
+
+
+important values :
+
+    -1 give for the parent element property = display: flex ; >> children (flex items)
+        same inline-block
+    
+    
+    values :
+
+    - align-items:center;   to center our items
+    - align-items:flex-start;   start the container
+    - align-items:flex-end;   end the container
+    - align-items:stretch;(defualt)   full height
+---------------------------------------------------------------------------
+- justify-content: center;  to center our items 
+- justify-content: space-between;  take the empty space between our items 
+------------------------------------------------------------------------------------
+
+to control or change just one as EX :
+
+we give the items values :
+					- align-self:sflex-start; or any way ( stratch)
+
+ order: 
+	for responsive (defualt 0) to change with -1 or  +1
+				
+ gap:	to give space between items
+		

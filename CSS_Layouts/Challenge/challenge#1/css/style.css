@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  border-radius: 1%;
+  font-family: sans-serif;
+}
+body {
+  position: relative;
+}
+.content {
+  width: 770px;
+  height: 600px;
+  border: 5px solid black;
+  border-radius: 1%;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  box-shadow: 5px 5px;
+}
+body::before {
+  content: "sale";
+  border: 1px solid black;
+  position: absolute;
+  width: 60px;
+  padding: 4px;
+  color: white;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transform: rotate(-29deg);
+  text-align: center;
+  left: 25.5%;
+  top: -2%;
+  background-color: red;
+}
+h1 {
+  text-align: center;
+  margin: 0%;
+  border: 2px solid blue;
+  color: blue;
+  text-transform: uppercase;
+
+  padding: 10px;
+
+  width: 100%;
+}
+
+.content img {
+  width: 100%;
+  box-shadow: 3px 3px;
+  border-radius: 1%;
+}
+.title {
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+}
+.all {
+  margin-left: 5%;
+}
+.img {
+  width: 240px;
+  padding: 10px;
+
+  float: left;
+}
+
+.price {
+  width: 240px;
+  padding: 10px;
+  margin-top: -1%;
+
+  float: left;
+  bottom: 2%;
+}
+.price a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.price a:hover {
+  text-decoration: underline;
+}
+.price h3 {
+  font-size: 30px;
+}
+.like {
+  width: 240px;
+  padding: 10px;
+
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+.like h4 {
+  font-size: 18px;
+}
+.like ul {
+  font-size: 17px;
+}
+.like ul li {
+  margin-right: 3%;
+  font-weight: 600;
+  font-size: 16px;
+}
+.like h4 {
+  margin-left: 3.5%;
+}
+.price ul li {
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  text-transform: capitalize;
+
+  border-radius: 3%;
+
+  text-transform: uppercase;
+}
+.price h4 {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.li1 {
+  border: 1px solid red;
+}
+.li2 {
+  border: 1px solid blue;
+}
+.li3 {
+  border: 1px solid yellow;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  font-size: 18px;
+  transition: 1s;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 255, 0.822);
+  cursor: pointer;
+}
