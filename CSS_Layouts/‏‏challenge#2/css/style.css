@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  border-radius: 1%;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+.main {
+  width: 1000px;
+  height: 600px;
+  border: 5px solid black;
+  border-radius: 1%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  box-shadow: 5px 5px;
+}
+.main::before {
+  content: "sale";
+  position: absolute;
+  background-color: red;
+  top: -2%;
+  left: -3%;
+  color: white;
+  border: 1px solid black;
+  width: 50px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+}
+.main h1 {
+  color: blue;
+  border: 2px solid blue;
+  text-align: center;
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.main .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .content .box {
+  flex: 1;
+  flex-wrap: nowrap;
+}
+.box .image img {
+  width: 100%;
+}
+
+.content .box .price {
+}
+.content .box .price h3 {
+}
+.content .box .price p {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  line-height: 1.4;
+  width: fit-content;
+}
+.content .box .price a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.content .box .price .road-map {
+}
+.content .box .price .road-map h4 {
+  text-transform: uppercase;
+}
+.content .box .price .road-map .map {
+  display: flex;
+}
+
+.content .box .price .road-map ul li {
+  margin-left: 5px;
+  text-align: center;
+  width: 70px;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+.content .box .price .road-map ul li:first-child {
+  border-color: rgb(247, 192, 63);
+}
+.content .box .price .road-map ul li:nth-child(2) {
+  border-color: blueviolet;
+}
+.content .box .price .road-map ul li:last-child {
+  border-color: yellow;
+}
