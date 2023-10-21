@@ -9,7 +9,8 @@ ul {
 }
 .main {
   width: 1000px;
-  height: 600px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border: 5px solid black;
   border-radius: 1%;
   position: relative;
@@ -22,19 +23,26 @@ ul {
   content: "sale";
   position: absolute;
   background-color: red;
+  padding: 10px;
   top: -2%;
   left: -3%;
   color: white;
   border: 1px solid black;
-  width: 50px;
+  width: 60px;
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
+  font-weight: bold;
   transform: rotate(-30deg);
   -webkit-transform: rotate(-30deg);
   -moz-transform: rotate(-30deg);
   -ms-transform: rotate(-30deg);
   -o-transform: rotate(-30deg);
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
 }
 .main h1 {
   color: blue;
@@ -48,19 +56,21 @@ ul {
 .main .content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .main .content .box {
   flex: 1;
   flex-wrap: nowrap;
+  margin-left: 40px;
 }
 .box .image img {
   width: 100%;
 }
 
 .content .box .price {
+  margin-top: -20px;
 }
 .content .box .price h3 {
+  font-size: 30px;
 }
 .content .box .price p {
   text-transform: uppercase;
@@ -92,6 +102,9 @@ ul {
   border: 2px solid;
   font-size: 19px;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .content .box .price .road-map ul li:first-child {
   border-color: rgb(247, 192, 63);
@@ -101,4 +114,35 @@ ul {
 }
 .content .box .price .road-map ul li:last-child {
   border-color: yellow;
+}
+
+.content .box .learn {
+  margin-top: -20px;
+}
+.content .box .learn h4 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.content .box .learn ul li {
+  line-height: 2;
+  list-style: initial;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main > a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  background-color: blue;
+  padding: 20px;
+  width: 95%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.main > a:hover {
+  background-color: rgba(0, 0, 255, 0.815);
 }
